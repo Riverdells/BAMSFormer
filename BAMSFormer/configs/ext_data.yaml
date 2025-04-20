@@ -1,0 +1,139 @@
+METRLA:
+  rel_file: "METRLA"
+  geo_file: "METRLA"
+  num_nodes: 207
+  set_weight_link_or_dist: "link"
+  init_weight_inf_or_zero: "zero"
+  weight_col: "cost"
+  bidir: true
+  calculate_weight_adj: false
+  weight_adj_epsilon: 0.1
+  far_mask_delta: 7
+  dtw_delta: 5
+  type_short_path: "hop"
+  data_col: [
+      "traffic_speed"
+  ]
+  data_files: [
+      "METRLA"
+  ]
+
+PEMSBAY:
+  rel_file: "PEMSBAY"
+  geo_file: "PEMSBAY"
+  num_nodes: 325
+  set_weight_link_or_dist: "link"
+  init_weight_inf_or_zero: "zero"
+  weight_col: "cost"
+  bidir: true
+  calculate_weight_adj: false
+  weight_adj_epsilon: 0.1
+  far_mask_delta: 7
+  dtw_delta: 5
+  type_short_path: "hop"
+  data_col: [
+      "traffic_speed"
+  ]
+  data_files: [
+      "PEMSBAY"
+  ]
+
+PEMS03:
+  rel_file: "PEMS03"
+  geo_file: "PEMS03"
+  num_nodes: 358
+  set_weight_link_or_dist: "link"
+  init_weight_inf_or_zero: "zero"
+  weight_col: "distance"
+  bidir: true
+  calculate_weight_adj: false
+  weight_adj_epsilon: 0.1
+  far_mask_delta: 7
+  dtw_delta: 5
+  type_short_path: "hop"
+  data_col: [
+      "traffic_flow"
+  ]
+  data_files: [
+      "PEMS03"
+  ]
+
+PEMS04:
+  rel_file: "PEMS04"
+  geo_file: "PEMS04"
+  num_nodes: 307
+  set_weight_link_or_dist: "link"
+  init_weight_inf_or_zero: "zero"
+  weight_col: "cost"
+  bidir: true
+  calculate_weight_adj: false
+  weight_adj_epsilon: 0.0
+  far_mask_delta: 7
+  dtw_delta: 5
+  type_short_path: "hop"
+  data_col: [
+      "traffic_flow"
+  ]
+  data_files: [
+      "PEMS04"
+  ]
+
+PEMS07:
+  rel_file: "PEMS07"
+  geo_file: "PEMS07"
+  num_nodes: 883
+  set_weight_link_or_dist: "link"
+  init_weight_inf_or_zero: "zero"
+  weight_col: "cost"
+  bidir: true
+  calculate_weight_adj: false
+  weight_adj_epsilon: 0.1
+  far_mask_delta: 7
+  dtw_delta: 5
+  type_short_path: "hop"
+  data_col: [
+      "traffic_flow"
+  ]
+  data_files: [
+      "PEMS07"
+  ]
+
+PEMS08:
+  rel_file: "PEMS08"
+  geo_file: "PEMS08"
+  num_nodes: 170
+  set_weight_link_or_dist: "link"
+  init_weight_inf_or_zero: "zero"
+  weight_col: "cost"
+  bidir: true
+  calculate_weight_adj: false
+  weight_adj_epsilon: 0.1
+  far_mask_delta: 5
+  dtw_delta: 5
+  type_short_path: "hop"
+  data_col: [
+      "traffic_flow"
+  ]
+  data_files: [
+      "PEMS08"
+  ]
+
+PEMSD7M:
+  rel_file: "PEMSD7M"
+  geo_file: "PEMSD7M"
+  num_nodes: 228
+  set_weight_link_or_dist: "link"
+  init_weight_inf_or_zero: "zero"
+  weight_col: "weight"
+  bidir: true
+  calculate_weight_adj: false
+  weight_adj_epsilon: 0.1
+  far_mask_delta: 7
+  dtw_delta: 5
+  type_short_path: "hop"
+  data_col: [
+      "traffic_flow"
+  ]
+  data_files: [
+      "PEMSD7M"
+  ]
